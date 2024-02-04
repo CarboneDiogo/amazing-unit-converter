@@ -1,7 +1,9 @@
 import React from "react";
 import NavItem from "./NavItem";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const activeTab = props.activeTab;
+  
   return (
     <nav className="flex flex-row justify-between ">
 <div className="hover:cursor-pointer hover:text-black hover:bg-white duration-500 p-2">
