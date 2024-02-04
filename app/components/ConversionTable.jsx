@@ -85,8 +85,8 @@ const ConversionTable = (props) => {
         <div className='flex flew-row justify-evenly'>
             <p className='text-1xl p-3'>Results: </p>
             <div className='p-3'>
-                {results.map((result) => {
-                    return <p> {result} </p>
+                {results.map((result, index) => {
+                    return <p key={index}> {result} </p>
                 })}
             </div>
         </div>
