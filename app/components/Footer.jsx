@@ -6,7 +6,7 @@ const Footer = () => {
         <p>
         Created by: 
         </p>
-        <p className='text-purple-500 pl-2'>Bruxo's Troop</p>
+        <p className='text-purple-500 pl-2'>Bruxo Troop</p>
     </div>
   )
 }
